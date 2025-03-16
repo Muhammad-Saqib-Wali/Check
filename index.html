@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="EventsSphere">
+  <meta name="Description" content="This is a Event Booking Website developed by Muhammad Saqib Wali">
+  <title>Events Sphere</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/favicon/favicon.ico" />
+  <script src="jQury/jquery-3.7.1.min.js"></script>
+  <script src="javascript/javascript.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <div class="nav-img">
+        <a href="index.html"><img src="images/Home-images/Web-logo.png" alt="Event Logo" /></a>
+      </div>
+
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="html/events.html">Events</a></li>
+          <li><a href="html/about-us.html">About Us</a></li>
+          <li><a href="html/contact.html">Contact Us</a></li>
+          <a href="html/events.html"><button class="nav-button">Explore Events</button></a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="landing-image">
+      <div class="landing-content">
+        <h1>Discover Unforgettable Events</h1>
+        <p>
+          From concerts and exhibitions to corporate events and private parties, Event Sphere is your go-to platform for
+          booking unforgettable experiences. Discover and book tickets to your favorite events with ease and
+          convenience.
+        </p>
+      </div>
+      <div class="landing-page-button">
+        <a href="html/events.html"><button>Book Now</button></a>
+      </div>
+    </section>
+
+    <section class="about-us">
+      <div>
+        <img src="images/Home-images/Home-img 1.jpg" alt="About Us Image" />
+      </div>
+      <div class="about-description">
+        <h4>About Us</h4>
+        <h2>Events Sphere – Your Event, Your Way!</h2>
+        <p>
+          At Events Sphere, we make event planning simple and memorable. Whether it's a wedding, corporate gathering, or
+          personal celebration, our platform connects you with the best venues and services to bring your vision to
+          life.
+        </p>
+        <p>
+          With trusted partners and an easy booking process, Events Sphere is your one-stop solution for unforgettable
+          events. Start planning today and make your next event extraordinary!
+        </p>
+      </div>
+    </section>
+
+    <section class="featured-events-container" id="fea-event">
+      <h1>Featured Events</h1>
+      <p>Explore the latest and upcoming events near you!</p>
+      <div class="featured-cards-container" id="featured-cards-container">
+        <!-- event cards will be loaded thorugh js from json file -->
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="services-content">
+        <h4>Our Services</h4>
+        <h1>What We Offer</h1>
+        <div class="services-columns">
+          <div class="services-column">
+            <div class="icon-container">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h3>Event Planning</h3>
+            <p>Our expert event planners will help you create a memorable experience for your guests with flawless
+              execution.</p>
+          </div>
+          <div class="services-column">
+            <div class="icon-container">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Venue Selection</h3>
+            <p>Choose from a wide range of premium venues to find the perfect setting for your event, tailored to your
+              needs.</p>
+          </div>
+          <div class="services-column">
+            <div class="icon-container">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h3>Catering Services</h3>
+            <p>From gourmet meals to delicious desserts, our trusted catering partners will elevate your guest
+              experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="our-partners">
+      <div class="partners-content">
+        <h2>Our Partners</h2>
+        <p>Partnering with industry leaders to deliver excellence, innovation, and world-class services to our clients.
+        </p>
+        <div class="partners-logos">
+          <div class="logo-container">
+            <img src="images/Home-images/Ourpartner/KingPoint.png" alt="Company 1" />
+          </div>
+          <div class="logo-container">
+            <img src="images/Home-images/Ourpartner/logan-Services.png" alt="Company 2" />
+          </div>
+          <div class="logo-container">
+            <img src="images/Home-images/Ourpartner/Mingle-Map.png" alt="Company 3" />
+          </div>
+          <div class="logo-container">
+            <img src="images/Home-images/Ourpartner/Z-group.png" alt="Company 4" />
+          </div>
+          <div class="logo-container">
+            <img src="images/Home-images/Ourpartner/Z-Groups.png" alt="Company 5" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="the-advantages">
+      <div class="advan-content">
+        <h4>Why Choose Event Sphere</h4>
+        <h1>The Advantages</h1>
+        <div class="advan-columns">
+          <div class="advan-column">
+            <div class="icon-container">
+              <i class="fas fa-tags"></i>
+            </div>
+            <h3>Best Price</h3>
+            <p>We provide the most competitive prices without compromising on quality, ensuring you get the best value.
+            </p>
+          </div>
+          <div class="advan-column">
+            <div class="icon-container">
+              <i class="fas fa-calendar-check"></i>
+            </div>
+            <h3>Book Now to Secure Availability</h3>
+            <p>Secure your spot today to avoid missing out on your preferred dates and services.</p>
+          </div>
+          <div class="advan-column">
+            <div class="icon-container">
+              <i class="fas fa-times-circle"></i>
+            </div>
+            <h3>Free Cancellation Anytime</h3>
+            <p>Enjoy peace of mind with our hassle-free cancellation policy, tailored to meet your needs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="stats-section">
+      <div class="stat">
+        <img src="images/Home-images/ticket.png" alt="Tickets Icon">
+        <h2>26 Million</h2>
+        <p>Tickets Sold</p>
+      </div>
+      <div class="stat">
+        <img src="images/Home-images/calendar.png" alt="Digital Events Icon">
+        <h2>30K+</h2>
+        <p>Digital Events</p>
+      </div>
+      <div class="stat">
+        <img src="images/Home-images/business.png" alt="Events Partnered Icon">
+        <h2>100K+</h2>
+        <p>Events Partnered</p>
+      </div>
+    </div>
+
+    <section class="frequently" id="faq">
+      <div class="fre-content">
+        <h1>Frequently Asked Questions</h1>
+        <div class="fre-columns">
+          <!-- Left Column -->
+          <div class="fre-column">
+            <div class="fre-question">
+              <h4>
+                Can I use discount or promo codes on Event Sphere?
+                <img src="Icons/plus-solid.svg" alt="arrow-icon" class="arrow" />
+              </h4>
+              <p>Yes, Event Sphere offers the option to use discount or promo codes during the booking process. Simply
+                enter your code at checkout to receive your discount.</p>
+            </div>
+            <div class="fre-question">
+              <h4>
+                What types of events can I book on Event Sphere?
+                <img src="Icons/plus-solid.svg" alt="arrow-icon" class="arrow" />
+              </h4>
+              <p>You can book a wide range of events including concerts, conferences, weddings, and more.</p>
+            </div>
+          </div>
+          <!-- Right Column -->
+          <div class="fre-column">
+            <div class="fre-question">
+              <h4>
+                How do I contact customer support?
+                <img src="Icons/plus-solid.svg" alt="arrow-icon" class="arrow" />
+              </h4>
+              <p>You can contact customer support through our 'Contact Us' page or by emailing support@eventsphere.com.
+              </p>
+            </div>
+            <div class="fre-question">
+              <h4>
+                Can I cancel or reschedule my booking?
+                <img src="Icons/plus-solid.svg" alt="arrow-icon" class="arrow" />
+              </h4>
+              <p>Yes, you can cancel or reschedule your booking according to our cancellation policy. Please refer to
+                our terms and conditions for more details.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="go-event-section">
+      <div class="go-event">
+        <h1>EventSphere Is Easier Than You Think!</h1>
+        <p>Book your favorite Event in just 2 Minutes</p>
+        <a href="html/events.html"><button>Go</button></a>
+      </div>
+    </section>
+
+    <div class="customization-icon">
+      <img src="Icons/customisation.png" alt="Settings Icon" id="customize-icon" />
+    </div>
+
+    <div class="customization-panel" id="customization-panel">
+      <div class="customization-header">
+        <h3>Customize Settings</h3>
+      </div>
+      <div class="customization-content">
+        <div class="customization-option">
+          <button id="increase-font">
+            <img src="Icons/plus-solid.svg" alt="Increase Font" />
+            Increase Font
+          </button>
+          <button id="decrease-font">
+            <img src="Icons/minus-solid.svg" alt="Decrease Font" />
+            Decrease Font
+          </button>
+        </div>
+        <div class="customization-option">
+          <button id="dark-mode">
+            <img src="Icons/night-mode.png" alt="Dark Mode" />
+            Dark Mode
+          </button>
+          <button id="light-mode">
+            <img src="Icons/sun.png" alt="Light Mode" />
+            Light Mode
+          </button>
+        </div>
+        <div class="customization-option">
+          <button id="reset-preferences">
+            <img src="Icons/reset.png" alt="Reset Preferences" />
+            Reset Preferences
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="col-1">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="html/about-us.html">About us</a></li>
+          <li><a href="html/contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <h3>Features</h3>
+        <ul>
+          <li><a href="index.html#fea-event">Features Events</a></li>
+          <li><a href="html/events.html">Events</a></li>
+          <li><a href="html/events.html">Explore Events</a></li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <h3>Help</h3>
+        <ul>
+          <li><a href="index.html#faq">FAQs</a> </li>
+          <li><a href="html/contact.html">Support</a></li>
+          <li><a href="html/contact.html">Book Event</a></li>
+        </ul>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyrights">
+      <p>&copy; 2024, Inc. All Rights Reserved.</p>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/NottinghamTrentUniversity">
+        <img src="https://img.icons8.com/fluent/30/ffffff/facebook-new.png" alt="Facebook" />
+      </a>
+      <a href="https://www.linkedin.com/in/muhammad-saqib-wali/">
+        <img src="https://img.icons8.com/fluent/30/ffffff/linkedin.png" alt="LinkedIn" />
+      </a>
+      <a href="https://x.com/nottmtrentuni">
+        <img src="https://img.icons8.com/fluent/30/ffffff/twitter.png" alt="Twitter" />
+      </a>
+    </div>
+  </footer>
+</body>
+</html>

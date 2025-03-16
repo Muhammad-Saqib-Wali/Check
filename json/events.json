@@ -1,0 +1,91 @@
+[
+    {
+      "id": 1,
+      "name": "Spring Art Festival",
+      "price": "Free",
+      "dateTime": "April 20, 2025 | 10:00 AM - 6:00 PM",
+      "location": "Hyde Park, London",
+      "city": "London",
+      "category": "Festivals",
+      "image": "../images/Event-page/London-Festival.jpg",
+      "description": "Immerse yourself in the colors and creativity at the Spring Art Festival. This family-friendly event will feature live painting demonstrations, craft workshops, and interactive art installations."
+    },
+    {
+      "id": 2,
+      "name": "Music Night Live",
+      "price": "£25.00",
+      "dateTime": "May 5, 2025 | 7:00 PM - 10:00 PM",
+      "location": "O2 Academy, Birmingham",
+      "city": "Birmingham",
+      "category": "Music",
+      "image": "../images/Event-page/Birmingham-night.jpg",
+      "description": "Experience the electrifying Music Night Live featuring top artists and immersive light displays at the O2 Academy in Birmingham."
+    },
+    {
+      "id": 4,
+      "name": "Art Exhibition",
+      "price": "£20.00",
+      "dateTime": "July 10, 2025 | 11:00 AM - 4:00 PM",
+      "location": "Tate Modern, London",
+      "city": "London",
+      "category": "Art",
+      "image": "../images/Event-page/London-Art.jpg",
+      "description": "Discover 100+ masterpieces at the Art Exhibition at Tate Modern, featuring both contemporary and classical works with interactive tours."
+    },
+    {
+      "id": 5,
+      "name": "Yoga and Wellness Retreat",
+      "price": "£50.00",
+      "dateTime": "August 8, 2025 | 6:00 AM - 8:00 PM",
+      "location": "Sherwood Forest Center, Nottingham",
+      "city": "Nottingham",
+      "category": "Health & Wellness",
+      "image": "../images/Event-page/not-yoga.jpg",
+      "description": "Rejuvenate your mind and body with sunrise yoga, mindfulness workshops, and sound bath therapy at the Sherwood Forest Center."
+    },
+    {
+      "id": 10,
+      "name": "Virtual Reality Tech Showcase",
+      "price": "£45.00",
+      "dateTime": "August 22, 2025 | 10:00 AM - 5:00 PM",
+      "location": "NEC Birmingham, Birmingham",
+      "city": "Birmingham",
+      "category": "Technology",
+      "image": "../images/Event-page/Birmingham-Tech.jpg",
+      "description": "Experience cutting-edge virtual reality innovations and demos at the NEC Birmingham's VR Tech Showcase. Ideal for tech enthusiasts and gamers."
+    },
+    {
+      "id": 11,
+      "name": "Classic Car Show",
+      "price": "£15.00",
+      "dateTime": "July 18, 2025 | 9:00 AM - 5:00 PM",
+      "location": "Victoria Park, Leicester",
+      "city": "Leicester",
+      "category": "Exhibitions",
+      "image": "../images/Event-page/lei-car.webp",
+      "description": "Step back in time and explore a stunning collection of classic cars at the Leicester Classic Car Show. A treat for automobile enthusiasts!"
+    },
+    {
+      "id": 13,
+      "name": "Jazz and Blues Night",
+      "price": "£25.00",
+      "dateTime": "May 30, 2025 | 7:00 PM - 11:00 PM",
+      "location": "Ronnie Scott’s Jazz Club, London",
+      "city": "London",
+      "category": "Music",
+      "image": "../images/Event-page/London-Night.jpg",
+      "description": "Savor the sounds of smooth jazz and soulful blues at Ronnie Scott’s Jazz Club in London, featuring talented local and international musicians."
+    },
+    {
+      "id": 14,
+      "name": "Fitness Bootcamp",
+      "price": "£20.00",
+      "dateTime": "July 15, 2025 | 8:00 AM - 1:00 PM",
+      "location": "Nottingham Racecourse, Nottingham",
+      "city": "Nottingham",
+      "category": "Health & Wellness",
+      "image": "../images/Event-page/not-fit.jpg",
+      "description": "Transform your fitness with an intensive bootcamp led by expert trainers. Enjoy high-energy workouts and motivational sessions at Nottingham Racecourse."
+    }
+  ]
+  

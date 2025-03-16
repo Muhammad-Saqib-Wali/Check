@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "London Music Festival",
+    "price": "\u00a350.00",
+    "dateTime": "July 15, 2025 | 6:00 PM - 11:00 PM",
+    "location": "London, UK",
+    "city": "London",
+    "category": "Music",
+    "image": "../images/Event-page/London-night.jpg",
+    "description": "Experience the vibrant sounds of top artists at the London Music Festival. This incredible event will bring together some of the most talented musicians from around the world, featuring a mix of genres including pop, rock, jazz, and classical. Enjoy live performances on multiple stages, state-of-the-art sound systems, and stunning visual effects. The festival will also include food stalls offering global cuisine, merchandise booths with exclusive memorabilia, and dedicated areas for relaxation and family-friendly activities. Whether you're a music aficionado or just looking for a great time, this festival promises an unforgettable evening in the heart of London. Don't miss the chance to immerse yourself in a celebration of music, culture, and community. Gates open at 5:00 PM for early access, so arrive early to secure the best spot!"
+  },
+  {
+    "id": 2,
+    "name": "Birmingham Fringe",
+    "price": "\u00a330.00",
+    "dateTime": "August 1, 2025 | 10:00 AM - 8:00 PM",
+    "location": "Edinburgh, Scotland, UK",
+    "city": "Edinburgh",
+    "category": "Art & Culture",
+    "image": "../images/Event-page/birmingham-night.jpg",
+    "description": "Immerse yourself in the creative world of the Edinburgh Fringe, the largest arts festival in the world. The festival showcases a spectacular variety of performances, including theatre, comedy, music, dance, and spoken word, with acts ranging from established artists to emerging talents. With venues spread across the city, including historic landmarks, pop-up stages, and intimate spaces, the Fringe offers something for everyone. Engage in workshops and Q&A sessions with performers, explore art installations, and enjoy street performances that bring Edinburgh's streets to life. Discover the city's rich cultural heritage while indulging in local cuisine and shopping for unique crafts at the event's markets. The Edinburgh Fringe is not just an event; it's an experience that captivates and inspires all who attend. Make sure to plan your visit and book tickets early as many shows sell out fast."
+  },
+  {
+    "id": 3,
+    "name": "Manchester Tech Expo",
+    "price": "\u00a320.00",
+    "dateTime": "May 20, 2025 | 10:00 AM - 4:00 PM",
+    "location": "Manchester, England, UK",
+    "city": "Manchester",
+    "category": "Technology",
+    "image": "../images/Event-page/London-Festival.jpg",
+    "description": "Discover the latest tech innovations and network with industry leaders at the Manchester Tech Expo, a must-attend event for anyone passionate about technology. The expo will feature keynote speeches from tech visionaries, hands-on workshops, and panel discussions covering topics such as AI, blockchain, cybersecurity, and green tech. Attendees will have the opportunity to explore interactive exhibits, test cutting-edge gadgets, and engage with startups showcasing groundbreaking ideas. Whether you're a tech enthusiast, entrepreneur, or professional, this event provides invaluable insights and opportunities to connect with like-minded individuals. The venue will also host a recruitment zone, allowing participants to meet potential employers and discover career opportunities in the tech industry. Complimentary refreshments and networking sessions will ensure a productive and enjoyable experience for all. Secure your spot today and be part of the future of technology!"
+  }
+]

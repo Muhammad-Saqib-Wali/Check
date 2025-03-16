@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="EventsSphere">
+  <meta name="Description" content="This is a Event Booking Website developed by Muhammad Saqib Wali">
+  <title>Events Sphere</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="../images/favicon/favicon.ico" />
+  <script src="../jQury/jquery-3.7.1.min.js"></script>
+  <script src="../javascript/javascript.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <div class="nav-img">
+        <a href="index.html"><img src="../images/Home-images/Web-logo.png" alt="Event Logo" /></a>
+      </div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <a href="#"><button class="nav-button">Explore Events</button></a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="event-landing">
+      <h2>All Events</h2>
+    </section>
+
+    <section class="event-content">
+      <div class="filter-bar">
+        <div class="filter-item">
+          <label for="category">Category:</label>
+          <select id="category">
+            <option>Select Category</option>
+            <option>Festivals</option>
+            <option>Music</option>
+            <option>Conferences</option>
+            <option>Art</option>
+            <option>Health & Wellness</option>
+            <option>Theatre & Drama</option>
+          </select>
+        </div>
+        <div class="filter-item">
+          <label for="city">City:</label>
+          <select id="city">
+            <option>Select City</option>
+            <option>London</option>
+            <option>Birmingham</option>
+            <option>Leicester</option>
+            <option>Nottingham</option>
+          </select>
+        </div>
+        <div class="filter-item search-bar">
+          <label for="search">Search:</label>
+          <input type="text" id="search" placeholder="Search events..." />
+        </div>
+        <button class="filter-button">Search</button>
+      </div>
+
+      <!-- Events Section -->
+      <div class="events-grid">
+        <!-- Events ill be loaded through js -->
+      </div>
+    </section>
+
+    <!-- Customization Panel -->
+    <div class="customization-icon">
+      <img src="../Icons/customisation.png" alt="Settings Icon" id="customize-icon" />
+    </div>
+    
+    <div class="customization-panel" id="customization-panel">
+      <div class="customization-header">
+        <h3>Customize Settings</h3>
+      </div>
+      <div class="customization-content">
+        <div class="customization-option">
+          <button id="increase-font">
+            <img src="../Icons/plus-solid.svg" alt="Increase Font" />
+            Increase Font
+          </button>
+          <button id="decrease-font">
+            <img src="../Icons/minus-solid.svg" alt="Decrease Font" />
+            Decrease Font
+          </button>
+        </div>
+        <div class="customization-option">
+          <button id="dark-mode">
+            <img src="../Icons/night-mode.png" alt="Dark Mode" />
+            Dark Mode
+          </button>
+          <button id="light-mode">
+            <img src="../Icons/sun.png" alt="Light Mode" />
+            Light Mode
+          </button>
+        </div>
+        <div class="customization-option">
+          <button id="reset-preferences">
+            <img src="../Icons/reset.png" alt="Reset Preferences" />
+            Reset Preferences
+          </button>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="col-1">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <h3>Features</h3>
+        <ul>
+          <li><a href="index.html#fea-event">Features Events</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="events.html">Explore Events</a></li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <h3>Help</h3>
+        <ul>
+          <li><a href="index.html#faq">FAQs</a> </li>
+          <li><a href="contact.html">Support</a></li>
+          <li><a href="contact.html">Book Event</a></li>
+
+        </ul>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyrights">
+      <p>&copy; 2024, Inc. All Rights Reserved.</p>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://www.facebook.com/NottinghamTrentUniversity">
+        <img src="https://img.icons8.com/fluent/30/ffffff/facebook-new.png" alt="Facebook" />
+      </a>
+      <a href="https://www.linkedin.com/in/muhammad-saqib-wali/">
+        <img src="https://img.icons8.com/fluent/30/ffffff/linkedin.png" alt="LinkedIn" />
+      </a>
+      <a href="https://x.com/nottmtrentuni">
+        <img src="https://img.icons8.com/fluent/30/ffffff/twitter.png" alt="Twitter" />
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>

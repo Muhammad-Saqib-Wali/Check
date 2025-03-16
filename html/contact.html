@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="EventsSphere">
+  <meta name="Description" content="This is a Event Booking Website developed by Muhammad Saqib Wali">
+  <title>Events Sphere</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="../images/favicon/favicon.ico" />
+  <script src="../jQury/jquery-3.7.1.min.js"></script>
+  <script src="../javascript/javascript.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <!-- Logo -->
+      <div class="nav-img">
+        <a href="index.html"><img src="../images/Home-images/Web-logo.png" alt="Event Logo" /></a>
+      </div>
+
+      <!-- Hamburger for Mobile -->
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="../index.html" >Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <button class="nav-button">Explore Events</button>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+      <section class="contact-landing-banner">
+        <h2>Contact Us</h2>
+      </section>
+      <section class="contact-page">
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+          <p><img src="../Icons/phone-solid.svg" alt="phone icon"> +44 75123456789</p>
+          <p><img src="../Icons/email.png" alt="email icon"> SaqibWali@gmail.com</p>
+          <p><img src="../Icons/location-pin.png" alt="location icon"> Nottingham Trent University, Nottingham, UK</p>
+        </div>
+        <!-- Contact form start -->
+        <div class="form-container">
+          <form id="contact-form" novalidate>
+            <h2>Send Us a Message</h2>
+            <p>We would love to hear from you. Please fill out the form below.</p>
+            <div class="form-group">
+              <label for="first-name">First Name *</label>
+              <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required minlength="2" maxlength="25" pattern="[A-Za-z\s]+" title="First name should contain only letters and spaces.">
+              <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name *</label>
+              <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required minlength="2" maxlength="25" pattern="[A-Za-z\s]+" title="First name should contain only letters and spaces.">
+              <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email address"  required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Please enter a valid email address, e.g., user@example.com.">
+              <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" placeholder="Enter your message"  required minlength="10" maxlength="500" title="Your message should be between 10 and 500 characters."></textarea>
+              <small class="error-message"></small>
+            </div>
+            <div class="form-group captcha-group ">
+              <label>CAPTCHA *</label>
+              <div class="captcha-wrapper">
+                <img id="captcha-image" alt="CAPTCHA area">
+                <button type="button" id="refresh-captcha" class="refresh-btn">Reset</button>
+              </div>
+              <input type="text" id="captcha" name="captcha" placeholder="Enter the text above" pattern="[A-Za-z0-9]+" title="CAPTCHA should only contain alphanumeric characters.">
+              <small class="error-message"></small>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+            <div id="form-success" class="success-message">Your message has been sent successfully!</div>
+          </form>
+        </div>
+      </section>
+
+
+      <div class="customization-icon">
+        <img src="../Icons/customisation.png" alt="Settings Icon" id="customize-icon" />
+      </div>
+      
+      <div class="customization-panel" id="customization-panel">
+        <div class="customization-header">
+          <h3>Customize Settings</h3>
+        </div>
+        <div class="customization-content">
+          <div class="customization-option">
+            <button id="increase-font">
+              <img src="../Icons/plus-solid.svg" alt="Increase Font" />
+              Increase Font
+            </button>
+            <button id="decrease-font">
+              <img src="../Icons/minus-solid.svg" alt="Decrease Font" />
+              Decrease Font
+            </button>
+          </div>
+          <div class="customization-option">
+            <button id="dark-mode">
+              <img src="../Icons/night-mode.png" alt="Dark Mode" />
+              Dark Mode
+            </button>
+            <button id="light-mode">
+              <img src="../Icons/sun.png" alt="Light Mode" />
+              Light Mode
+            </button>
+          </div>
+          <div class="customization-option">
+            <button id="reset-preferences">
+              <img src="../Icons/reset.png" alt="Reset Preferences" />
+              Reset Preferences
+            </button>
+          </div>
+        </div>
+      </div>
+</main>
+    
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="col-1">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <h3>Features</h3>
+            <ul>
+              <li><a href="index.html#fea-event">Features Events</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="events.html">Explore Events</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h3>Help</h3>
+            <ul>
+              <li><a href="index.html#faq">FAQs</a> </li>
+              <li><a href="contact.html">Support</a></li>
+              <li><a href="contact.html">Book Event</a></li>
+    
+            </ul>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="copyrights">
+          <p>&copy; 2024, Inc. All Rights Reserved.</p>
+        </div>
+    
+        <div class="social-icons">
+          <a href="https://www.facebook.com/NottinghamTrentUniversity">
+            <img src="https://img.icons8.com/fluent/30/ffffff/facebook-new.png" alt="Facebook" />
+          </a>
+          <a href="https://www.linkedin.com/in/muhammad-saqib-wali/">
+            <img src="https://img.icons8.com/fluent/30/ffffff/linkedin.png" alt="LinkedIn" />
+          </a>
+          <a href="https://x.com/nottmtrentuni">
+            <img src="https://img.icons8.com/fluent/30/ffffff/twitter.png" alt="Twitter" />
+          </a>
+        </div>
+      </footer>
+</body>
+
+</html>
